@@ -1,6 +1,6 @@
 const fs = require("node:fs");
 
-console.log("Voy a leer los archivos de manera desordenada");
+console.log("Voy a leer los archivos de manera ordenada:");
 
 fs.readFile("./archivo1.txt", "utf-8", (err, data) => {
   //archivo 1
